@@ -28,10 +28,9 @@ valid_comments= 647
 NOTE: the number valid_comments is what will be used to determine your extra credit
         1. Explains what you believe your score should be.
            1. I should recieve a 30/20 because I completed these:
-            <li> 1. Each task in `bot.py` is worth 3 points. (6 tasks * 3 points/task = 18 points) +18 </li>
-            <li> 2. The github repo is worth 2 points. +2 </li>
-            <br>
-            <li> 1. Getting at least 100 valid comments posted. +2 </li>
-            <li> 2. Getting at least 500 valid comments posted. +2 </li>
-            <li> 4. Make your bot create new submission posts instead of just new comments. +2 </li>
-            <li> 7. upvote any comment or submission using TextBlob +4 </li>
+            <li> Each task in `bot.py` is worth 3 points. (6 tasks * 3 points/task = 18 points) +18 </li>
+            <li> The github repo is worth 2 points. +2 </li>
+            <li> Getting at least 100 valid comments posted. +2 </li>
+            <li> Getting at least 500 valid comments posted. +2 </li>
+            <li> Make your bot create new submission posts instead of just new comments. +2 </li>
+            <li> Upvote any comment or submission using TextBlob +4 </li>
