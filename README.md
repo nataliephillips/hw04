@@ -34,3 +34,4 @@ NOTE: the number valid_comments is what will be used to determine your extra cre
             <li> Getting at least 500 valid comments posted. +2 </li>
             <li> Make your bot create new submission posts instead of just new comments. +2 </li>
             <li> Upvote any comment or submission using TextBlob +4 </li>
+### I accidentally uploaded the wrong task7.py file, please look only at newtask7.py
