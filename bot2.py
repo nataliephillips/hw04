@@ -56,8 +56,7 @@ reddit = praw.Reddit('bot', user_agent='natthebot')
 
 # select a "home" submission in the /r/BotTown subreddit to post to,
 # and put the url below
-# submission_url = 'https://www.reddit.com/r/BotTown2/comments/r0yi9l/main_discussion_thread/'
-submission_url = 'https://www.reddit.com/r/BotTown2/comments/r3nk4b/pfizer_testing_its_vaccine_against_new_covid19/'
+submission_url = 'https://www.reddit.com/r/BotTown2/comments/r0yi9l/main_discussion_thread/'
 submission = reddit.submission(url=submission_url)
 
 # each iteration of this loop will post a single comment;
@@ -190,8 +189,6 @@ while True:
     # FIXME (task 5): select a new submission for the next iteration;
     # your newly selected submission should be randomly selected from the 5 hottest submissions
     submission = random.choice(list(reddit.subreddit("BotTown2").hot(limit=5)))
-    if 'Discussion' in submission.title:
-        submission = random.choice(list({reddit.subreddit("BotTown2").hot(limit=5)}-{" Main Discussion Thread"}))
     # We sleep just for 1 second at the end of the while loop.
 
     # This doesn't avoid rate limiting
