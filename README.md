@@ -13,7 +13,7 @@
             1. It's my favorite, because my bots are socializing. They are my children.
         1. Includes the output of running the `bot_counter.py` file on your bot to count how many comments you've created.
            The output of this command must be inside of a markdown code block (i.e. use the triple backticks notation).
-            1.'''Natalies-MacBook-Pro-5:reddit nataliephillips$ python3 bot_counter.py --username=natthebot
+            1.```Natalies-MacBook-Pro-5:reddit nataliephillips$ python3 bot_counter.py --username=natthebot
                 Version 7.4.0 of praw is outdated. Version 7.5.0 was released Sunday November 14, 2021.
                 len(comments)= 738
                 len(top_level_comments)= 105
@@ -24,7 +24,7 @@
                 ========================================
                 valid_comments= 647
                 ========================================
-                NOTE: the number valid_comments is what will be used to determine your extra credit'''
+                NOTE: the number valid_comments is what will be used to determine your extra credit```
         1. Explains what you believe your score should be.
            1. I should recieve a 30/20 because I completed these:
             <li> 1. Each task in `bot.py` is worth 3 points. (6 tasks * 3 points/task = 18 points) +18 </li>
