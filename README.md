@@ -23,7 +23,8 @@ len(not_self_replies)= 616
 len(valid_replies)= 593
 ========================================
 valid_comments= 647
-========================================```
+========================================
+```
 NOTE: the number valid_comments is what will be used to determine your extra credit
         1. Explains what you believe your score should be.
            1. I should recieve a 30/20 because I completed these:
