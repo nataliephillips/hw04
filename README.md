@@ -13,7 +13,7 @@
             1. It's my favorite, because my bots are socializing. They are my children.
         1. Includes the output of running the `bot_counter.py` file on your bot to count how many comments you've created.
            The output of this command must be inside of a markdown code block (i.e. use the triple backticks notation).
-            1.```Natalies-MacBook-Pro-5:reddit nataliephillips$ python3 bot_counter.py --username=natthebot
+                ```Natalies-MacBook-Pro-5:reddit nataliephillips$ python3 bot_counter.py --username=natthebot
                 Version 7.4.0 of praw is outdated. Version 7.5.0 was released Sunday November 14, 2021.
                 len(comments)= 738
                 len(top_level_comments)= 105
